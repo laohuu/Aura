@@ -1,4 +1,4 @@
-// Copyright LaoHu
+// Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "Aura.h"
 #include "Modules/ModuleManager.h"
