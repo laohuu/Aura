@@ -19,7 +19,11 @@ public:
 private:
 	GENERATED_BODY()
 
-public:
+	/** Enemy Interface */
 	virtual void HighlightActor() override;
 	virtual void UnHighlightActor() override;
+	/** end Enemy Interface */
+
+protected:
+	virtual void BeginPlay() override;
 };
